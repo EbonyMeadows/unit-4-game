@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+    <div class="container-fluid">
+      <div class="row">
+                <div class="col-5">
+                        <div class="jumbotron jumbotron-fluid">
+                                <div class="container text-center">
+                                  <h1 class="display-4">Cystal Collector!</h1>
+                                </div>
+                              </div>
+                </div>
+
+        </div>
+        <div class="row">
+                <div class="col-8">
+                        <div class="jumbotron jumbotron-fluid">
+                                <div class="container">
+                                    <ul>
+                                        <li>You will be given a random number at the start of the game.</li>
+                                        <li>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your score.</li>
+                                        <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                                        <li>The value of each crystal is hidden from you until you click on it.</li>
+                                        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                                    </ul>
+                                  <!-- <p class="lead">You will be given a random number at the start of the game.<br>There are four
+                                crystals below.  By clicking on a crystal you will add a specific amount of points to your score.
+                                <br>You win the game by matching your total score to random number, you lose the game if your total
+                                score goes above the random number.<br>The value of each crystal is hidden from you until you click 
+                                on it.<br>Each time when the game starts, the game will change the values of each crystal.</p> -->
+                                </div>
+                              </div>
+                </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                    <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                              <h1 class="display-4"></h1>
+                              <p class="lead">Computer Score <span id="computerScore"></span></p>
+                            </div>
+                          </div>
+
+            </div>
+            <div class="col-2">
+                    <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                              <h4 class="lead">Wins:<span id="wins">0</span><br><br>Losses:<span id="losses">0</span></h4>
+                            </div>
+                          </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-2" id="gem1" >
+                    <img src="assets/images/fuchsia-triangle-gemstone.jpg" alt="fuchsia triangle gemstone" class="img-thumbnail">
+
+            </div>
+            <div class="col-2" id="gem2" >
+                    <img src="assets/images/yellow-gem.jpg" alt="yellow-gem" class="img-thumbnail">
+
+            </div>
+            <div class="col-2" id="gem3" >
+                    <img src="assets/images/green-gemstone.jpg" alt="green-gemstone" class="img-thumbnail">
+
+            </div>
+            <div class="col-2" id="gem4" >
+                    <img src="assets/images/red-heart-gem.jpg" alt="red-heart-gem" class="img-thumbnail">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <h4  class="lead">Your total score is:<span id="playerScore"></span></h4>
+                            </ol>
+                          </nav>
+            </div>
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
